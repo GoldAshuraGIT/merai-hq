@@ -2,7 +2,7 @@
   "meta": {
     "project": "MeraiLABS",
     "description": "AI-first education platform — command center",
-    "lastUpdated": "2026-03-05T16:41:06.853Z",
+    "lastUpdated": "2026-03-05T16:42:34.998Z",
     "updatedBy": "Ashura Goldman"
   },
   "workstreams": {
@@ -189,6 +189,18 @@
       "priority": "medium",
       "workstream": "operations",
       "githubUrl": "https://github.com/GoldAshuraGIT/merai-hq",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "014",
+      "title": "Global AI Education — лучшие мировые платформы",
+      "description": "Анализ DeepLearning.AI, Fast.ai, Coursera, Maven, HuggingFace и др. Почему они лучшие, что взять, сравнение мир vs Россия. Ожидает слот (Opus).",
+      "status": "backlog",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
       "createdAt": "2026-03-05",
       "updatedAt": "2026-03-05"
     }

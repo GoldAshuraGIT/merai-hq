@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "project": "MeraiLABS",
+    "description": "AI-first education platform — command center",
+    "lastUpdated": "2026-03-05T14:36:00+03:00",
+    "updatedBy": "Ashura Goldman"
+  },
+  "workstreams": {
+    "research": { "label": "Research & Strategy", "color": "#8B5CF6" },
+    "curriculum": { "label": "Course Curriculum", "color": "#3B82F6" },
+    "avatars": { "label": "Avatar & Video", "color": "#EC4899" },
+    "platform": { "label": "Platform Dev", "color": "#10B981" },
+    "social": { "label": "Social Media", "color": "#F59E0B" },
+    "marketing": { "label": "Marketing & Launch", "color": "#EF4444" },
+    "operations": { "label": "Operations", "color": "#6B7280" }
+  },
+  "tasks": [
+    {
+      "id": "001",
+      "title": "Market research — Russian AI education landscape",
+      "description": "Analyze competitors, pricing, gaps in the Russian-speaking AI education market",
+      "status": "backlog",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "002",
+      "title": "Define 3 avatar personas",
+      "description": "Create character profiles, visual style, voice, personality for each AI teacher avatar",
+      "status": "backlog",
+      "assignee": "gold",
+      "priority": "high",
+      "workstream": "avatars",
+      "githubUrl": "",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "003",
+      "title": "Course curriculum outline",
+      "description": "Define modules, lessons, learning outcomes for the gen AI education course",
+      "status": "backlog",
+      "assignee": "gold",
+      "priority": "high",
+      "workstream": "curriculum",
+      "githubUrl": "",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "004",
+      "title": "Set up project infrastructure",
+      "description": "GitHub repos, task board, shared workspace between OpenClaw and Claude Code",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "operations",
+      "githubUrl": "",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    }
+  ]
+}

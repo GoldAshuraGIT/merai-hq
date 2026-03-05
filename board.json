@@ -2,7 +2,7 @@
   "meta": {
     "project": "MeraiLABS",
     "description": "AI-first education platform — command center",
-    "lastUpdated": "2026-03-05T16:42:34.998Z",
+    "lastUpdated": "2026-03-05T16:45:56.982Z",
     "updatedBy": "Ashura Goldman"
   },
   "workstreams": {
@@ -99,8 +99,8 @@
     {
       "id": "006",
       "title": "Instagram Discovery — AI аккаунты СНГ",
-      "description": "Поиск Instagram-аккаунтов обучающих AI/нейросетям на русском. Подписчики, курсы, цены, engagement.",
-      "status": "in-progress",
+      "description": "v1 готов (15 аккаунтов, Sonnet). v2 запущен на Opus — глубокий поиск 30+ новых.",
+      "status": "done",
       "assignee": "ashura",
       "priority": "high",
       "workstream": "research",
@@ -111,8 +111,8 @@
     {
       "id": "007",
       "title": "YouTube Discovery — AI каналы СНГ",
-      "description": "Поиск русскоязычных YouTube-каналов по AI. Подписчики, просмотры, есть ли платные курсы.",
-      "status": "in-progress",
+      "description": "35+ каналов найдено. Топ: Артур Шарифов, ИИ Университет, Хохлов Сабатовский, ProfileSchool. Средний чек 30-50K₽.",
+      "status": "done",
       "assignee": "ashura",
       "priority": "high",
       "workstream": "research",
@@ -195,8 +195,20 @@
     {
       "id": "014",
       "title": "Global AI Education — лучшие мировые платформы",
-      "description": "Анализ DeepLearning.AI, Fast.ai, Coursera, Maven, HuggingFace и др. Почему они лучшие, что взять, сравнение мир vs Россия. Ожидает слот (Opus).",
-      "status": "backlog",
+      "description": "Opus: DeepLearning.AI, Fast.ai, Coursera, Maven, HuggingFace, тренды, сравнение мир vs РФ.",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "015",
+      "title": "Instagram Deep Discovery v2 (Opus)",
+      "description": "Глубокий поиск 30+ новых IG аккаунтов сверх первых 15. Парсинг лендингов, цены, программы.",
+      "status": "in-progress",
       "assignee": "ashura",
       "priority": "high",
       "workstream": "research",

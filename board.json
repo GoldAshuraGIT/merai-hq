@@ -2,24 +2,45 @@
   "meta": {
     "project": "MeraiLABS",
     "description": "AI-first education platform — command center",
-    "lastUpdated": "2026-03-05T14:36:00+03:00",
+    "lastUpdated": "2026-03-05T16:41:06.853Z",
     "updatedBy": "Ashura Goldman"
   },
   "workstreams": {
-    "research": { "label": "Research & Strategy", "color": "#8B5CF6" },
-    "curriculum": { "label": "Course Curriculum", "color": "#3B82F6" },
-    "avatars": { "label": "Avatar & Video", "color": "#EC4899" },
-    "platform": { "label": "Platform Dev", "color": "#10B981" },
-    "social": { "label": "Social Media", "color": "#F59E0B" },
-    "marketing": { "label": "Marketing & Launch", "color": "#EF4444" },
-    "operations": { "label": "Operations", "color": "#6B7280" }
+    "research": {
+      "label": "Research & Strategy",
+      "color": "#8B5CF6"
+    },
+    "curriculum": {
+      "label": "Course Curriculum",
+      "color": "#3B82F6"
+    },
+    "avatars": {
+      "label": "Avatar & Video",
+      "color": "#EC4899"
+    },
+    "platform": {
+      "label": "Platform Dev",
+      "color": "#10B981"
+    },
+    "social": {
+      "label": "Social Media",
+      "color": "#F59E0B"
+    },
+    "marketing": {
+      "label": "Marketing & Launch",
+      "color": "#EF4444"
+    },
+    "operations": {
+      "label": "Operations",
+      "color": "#6B7280"
+    }
   },
   "tasks": [
     {
       "id": "001",
       "title": "Market research — Russian AI education landscape",
-      "description": "Analyze competitors, pricing, gaps in the Russian-speaking AI education market",
-      "status": "backlog",
+      "description": "5 параллельных агентов собирают данные: Telegram, Instagram, YouTube, Web (Perplexity/Exa), Платформы+VK. Repo: GoldAshuraGIT/merai-research",
+      "status": "in-progress",
       "assignee": "ashura",
       "priority": "high",
       "workstream": "research",
@@ -54,12 +75,120 @@
     {
       "id": "004",
       "title": "Set up project infrastructure",
-      "description": "GitHub repos, task board, shared workspace between OpenClaw and Claude Code",
-      "status": "in-progress",
+      "description": "GitHub repos (merai-hq, merai-research, openclaw-workspace), task board deployed, Chrome relay, Telegram userbot, Instagram account, gog full scopes",
+      "status": "done",
       "assignee": "ashura",
       "priority": "high",
       "workstream": "operations",
       "githubUrl": "",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "005",
+      "title": "Telegram Discovery — AI каналы СНГ",
+      "description": "Поиск всех Telegram-каналов по AI-образованию через юзербота Telethon. Ключевые слова, подписчики, engagement, ссылки на курсы.",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "006",
+      "title": "Instagram Discovery — AI аккаунты СНГ",
+      "description": "Поиск Instagram-аккаунтов обучающих AI/нейросетям на русском. Подписчики, курсы, цены, engagement.",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "007",
+      "title": "YouTube Discovery — AI каналы СНГ",
+      "description": "Поиск русскоязычных YouTube-каналов по AI. Подписчики, просмотры, есть ли платные курсы.",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "008",
+      "title": "Web Deep Research — рынок AI-образования",
+      "description": "Perplexity + Brave + Exa: размер рынка, тренды, обзоры курсов, статистика, аудитория.",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "009",
+      "title": "Platforms + VK Discovery",
+      "description": "Skillbox, GeekBrains, Нетология, Яндекс Практикум, Stepik, Otus — все AI курсы, цены, программы. VK группы.",
+      "status": "in-progress",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "010",
+      "title": "Анализ + дедупликация + статистика",
+      "description": "Агент-аналитик: собрать все данные, удалить дубликаты, построить мастер-таблицу, gap analysis, графики.",
+      "status": "backlog",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "011",
+      "title": "Стратегия MeraiLABS",
+      "description": "Позиционирование, ценообразование, контент-стратегия, go-to-market — на основе данных ресёрча.",
+      "status": "backlog",
+      "assignee": "ashura",
+      "priority": "high",
+      "workstream": "research",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-research",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "012",
+      "title": "Instagram аккаунт @ashura.goldman",
+      "description": "Аккаунт создан, верифицирован. Готов к использованию для ресёрча и контента.",
+      "status": "done",
+      "assignee": "ashura",
+      "priority": "medium",
+      "workstream": "social",
+      "githubUrl": "",
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-05"
+    },
+    {
+      "id": "013",
+      "title": "Dashboard redesign — KYK style",
+      "description": "Neon emerald green + glassmorphism. Deployed: https://merai-hq-new.vercel.app",
+      "status": "done",
+      "assignee": "ashura",
+      "priority": "medium",
+      "workstream": "operations",
+      "githubUrl": "https://github.com/GoldAshuraGIT/merai-hq",
       "createdAt": "2026-03-05",
       "updatedAt": "2026-03-05"
     }
